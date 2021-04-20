@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+  padding-top: 250px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+.field {
+  display: block;
+  margin-right: 20px;
+}
+.value {
+  color: white;
+  font-size: 50px;
+  margin-right: 10px;
+}
+.label {
+  color: white;
+  font-size: 50px;
+}
+
+.text {
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  margin-bottom: 30px;
+  color: #0000008f;
+}
+
+.color {
+  color: #000000b3;
+  margin-top: 20px;
+}
